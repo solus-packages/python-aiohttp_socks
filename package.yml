@@ -1,8 +1,8 @@
 name       : python-aiohttp_socks
-version    : 0.2
-release    : 1
+version    : 0.2.2
+release    : 2
 source     :
-    - https://github.com/romis2012/aiohttp-socks/archive/0.2.tar.gz : 5c3b592c6c4546cec6242a061f4b4591cb9da6ec40d05d92a8bf43d62fd2ca91
+    - https://github.com/romis2012/aiohttp-socks/archive/0.2.2.tar.gz : 5558ab02248a9222d785a07fe5d90f081e6e8f9547f8201c84d5c9c5238ddf17
 license    : Apache-2.0
 component  : programming.python
 summary    : SOCKS proxy connector for aiohttp. SOCKS4(a) and SOCKS5 are supported.
