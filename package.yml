@@ -1,6 +1,6 @@
 name       : python-aiohttp_socks
 version    : 0.2.2
-release    : 2
+release    : 3
 source     :
     - https://github.com/romis2012/aiohttp-socks/archive/0.2.2.tar.gz : 5558ab02248a9222d785a07fe5d90f081e6e8f9547f8201c84d5c9c5238ddf17
 license    : Apache-2.0
