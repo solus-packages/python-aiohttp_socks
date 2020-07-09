@@ -2,8 +2,8 @@
     <Source>
         <Name>python-aiohttp_socks</Name>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>programming.python</PartOf>
@@ -19,30 +19,50 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks-0.2.2-py3.7.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks-0.2.2-py3.7.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks-0.2.2-py3.7.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks-0.2.2-py3.7.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks-0.2.2-py3.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks-0.4.0-py3.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks-0.4.0-py3.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks-0.4.0-py3.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks-0.4.0-py3.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks-0.4.0-py3.7.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/__pycache__/__init__.cpython-37.pyc</Path>
             <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/__pycache__/connector.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/__pycache__/errors.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/__pycache__/helpers.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/__pycache__/proto.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/__pycache__/utils.cpython-37.pyc</Path>
             <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/connector.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/errors.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/helpers.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proto.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/abc.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/base_proxy.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/chain_proxy.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/enums.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/errors.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/factory.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/helpers.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/http_proxy.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/mixins.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/socks4_proxy.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/__pycache__/socks5_proxy.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/abc.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/base_proxy.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/chain_proxy.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/enums.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/errors.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/factory.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/helpers.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/http_proxy.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/mixins.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/socks4_proxy.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/proxy/socks5_proxy.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/aiohttp_socks/utils.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2020-01-25</Date>
-            <Version>0.2.2</Version>
+        <Update release="4">
+            <Date>2020-07-09</Date>
+            <Version>0.4.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>
